@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .gradient-text-hero {
+    background: linear-gradient(135deg, #a78bfa, #fbbf24, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-badge {
+    background: linear-gradient(135deg, #ede9fe, #fef3c7);
+  }
+
+  .gradient-violet {
+    background: linear-gradient(135deg, #4c1d95, #7c3aed, #5b21b6);
+  }
+}
